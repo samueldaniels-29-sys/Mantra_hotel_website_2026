@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Meridian Hotel &amp; Spa</title>
+  <meta name="description" content="Browse photos of rooms, dining, the pool and the exterior of Meridian Hotel & Spa, with filterable gallery categories.">
+  <meta name="keywords" content="hotel gallery, hotel photos, hotel pool, hotel restaurant, hotel exterior">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Meridian <span>Hotel &amp; Spa</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-banner">
+  <div class="container">
+    <span class="eyebrow">Gallery</span>
+    <h1>A Look Around Meridian</h1>
+    <p>Rooms, dining, the pool and the property — filter by category below.</p>
+  </div>
+</section>
+
+<section class="container section">
+  <h2>Hotel Gallery</h2>
+  <div class="gold-divider"></div>
+
+  <div class="filter-buttons">
+    <button class="btn ghost active" data-filter="all" onclick="filterGallery('all')">All</button>
+    <button class="btn ghost" data-filter="rooms" onclick="filterGallery('rooms')">Rooms</button>
+    <button class="btn ghost" data-filter="dining" onclick="filterGallery('dining')">Dining</button>
+    <button class="btn ghost" data-filter="pool" onclick="filterGallery('pool')">Pool &amp; Spa</button>
+    <button class="btn ghost" data-filter="exterior" onclick="filterGallery('exterior')">Exterior</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item rooms">
+      <img src="images/room-royal.svg" alt="Royal Suite interior gallery photo">
+      <span class="gallery-caption">Royal Suite</span>
+    </div>
+    <div class="gallery-item rooms">
+      <img src="images/room-executive.svg" alt="Executive Suite interior gallery photo">
+      <span class="gallery-caption">Executive Suite</span>
+    </div>
+    <div class="gallery-item dining">
+      <img src="images/gallery-dining.svg" alt="Multi-cuisine restaurant gallery photo">
+      <span class="gallery-caption">Restaurant</span>
+    </div>
+    <div class="gallery-item pool">
+      <img src="images/gallery-pool.svg" alt="Rooftop swimming pool gallery photo">
+      <span class="gallery-caption">Rooftop Pool</span>
+    </div>
+    <div class="gallery-item rooms">
+      <img src="images/room-premier.svg" alt="Premier Room interior gallery photo">
+      <span class="gallery-caption">Premier Room</span>
+    </div>
+    <div class="gallery-item exterior">
+      <img src="images/gallery-exterior.svg" alt="Hotel building exterior gallery photo">
+      <span class="gallery-caption">Hotel Exterior</span>
+    </div>
+    <div class="gallery-item rooms">
+      <img src="images/room-deluxe.svg" alt="Deluxe Room interior gallery photo">
+      <span class="gallery-caption">Deluxe Room</span>
+    </div>
+    <div class="gallery-item dining">
+      <img src="images/gallery-dining.svg" alt="Candlelit dining table gallery photo">
+      <span class="gallery-caption">Dinner Setup</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Meridian Hotel &amp; Spa</h3>
+      <p>A boutique lakeside hotel offering elegant rooms, dining and wellness experiences in Udaipur, India.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="rooms.html">Rooms</a> | <a href="gallery.html">Gallery</a> | <a href="booking.html">Book Now</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: info@meridianhotel.com<br>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Meridian Hotel &amp; Spa. Designed for MANTRA 2026 Summer School.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16263e"/>
+      <stop offset="45%" stop-color="#3c4f6e"/>
+      <stop offset="75%" stop-color="#b5895a"/>
+      <stop offset="100%" stop-color="#e3c98f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f3d4a"/>
+      <stop offset="100%" stop-color="#1a5763"/>
+    </linearGradient>
+    <linearGradient id="bldg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1c30"/>
+      <stop offset="100%" stop-color="#16263e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="1080" cy="260" r="90" fill="#e3c98f" opacity="0.85"/>
+  <circle cx="1080" cy="260" r="140" fill="#e3c98f" opacity="0.18"/>
+
+  <!-- distant hills -->
+  <path d="M0,520 Q200,470 420,500 T800,490 T1400,510 L1400,560 L0,560 Z" fill="#2a3d57" opacity="0.6"/>
+
+  <!-- water -->
+  <rect x="0" y="560" width="1400" height="240" fill="url(#water)"/>
+  <g stroke="#e3c98f" stroke-opacity="0.35" stroke-width="3">
+    <line x1="120" y1="610" x2="260" y2="610"/>
+    <line x1="500" y1="650" x2="700" y2="650"/>
+    <line x1="900" y1="600" x2="1080" y2="600"/>
+    <line x1="200" y1="700" x2="420" y2="700"/>
+    <line x1="760" y1="730" x2="980" y2="730"/>
+  </g>
+
+  <!-- main hotel building -->
+  <g>
+    <rect x="430" y="300" width="540" height="280" fill="url(#bldg)"/>
+    <rect x="430" y="280" width="540" height="24" fill="#0e1c30"/>
+    <!-- wings -->
+    <rect x="330" y="380" width="100" height="200" fill="#142337"/>
+    <rect x="970" y="380" width="100" height="200" fill="#142337"/>
+    <!-- entrance canopy -->
+    <rect x="640" y="540" width="120" height="40" fill="#c9a056"/>
+    <rect x="660" y="580" width="80" height="60" fill="#0e1c30"/>
+
+    <!-- windows grid, lit -->
+    <g fill="#e3c98f">
+      <!-- rows -->
+      <g opacity="0.95">
+        <rect x="460" y="330" width="22" height="30"/>
+        <rect x="510" y="330" width="22" height="30"/>
+        <rect x="560" y="330" width="22" height="30"/>
+        <rect x="610" y="330" width="22" height="30"/>
+        <rect x="690" y="330" width="22" height="30"/>
+        <rect x="740" y="330" width="22" height="30"/>
+        <rect x="790" y="330" width="22" height="30"/>
+        <rect x="840" y="330" width="22" height="30"/>
+        <rect x="890" y="330" width="22" height="30"/>
+      </g>
+      <g opacity="0.8">
+        <rect x="460" y="385" width="22" height="30"/>
+        <rect x="510" y="385" width="22" height="30"/>
+        <rect x="610" y="385" width="22" height="30"/>
+        <rect x="690" y="385" width="22" height="30"/>
+        <rect x="790" y="385" width="22" height="30"/>
+        <rect x="890" y="385" width="22" height="30"/>
+      </g>
+      <g opacity="0.9">
+        <rect x="460" y="440" width="22" height="30"/>
+        <rect x="560" y="440" width="22" height="30"/>
+        <rect x="610" y="440" width="22" height="30"/>
+        <rect x="740" y="440" width="22" height="30"/>
+        <rect x="840" y="440" width="22" height="30"/>
+        <rect x="890" y="440" width="22" height="30"/>
+      </g>
+      <g opacity="0.7">
+        <rect x="510" y="495" width="22" height="30"/>
+        <rect x="560" y="495" width="22" height="30"/>
+        <rect x="690" y="495" width="22" height="30"/>
+        <rect x="790" y="495" width="22" height="30"/>
+        <rect x="840" y="495" width="22" height="30"/>
+      </g>
+    </g>
+
+    <!-- wing windows -->
+    <g fill="#e3c98f" opacity="0.85">
+      <rect x="355" y="410" width="18" height="24"/>
+      <rect x="385" y="410" width="18" height="24"/>
+      <rect x="355" y="460" width="18" height="24"/>
+      <rect x="385" y="460" width="18" height="24"/>
+      <rect x="995" y="410" width="18" height="24"/>
+      <rect x="1025" y="410" width="18" height="24"/>
+      <rect x="995" y="460" width="18" height="24"/>
+      <rect x="1025" y="460" width="18" height="24"/>
+    </g>
+  </g>
+
+  <!-- palm trees -->
+  <g fill="#0e1c30">
+    <rect x="220" y="470" width="10" height="110"/>
+    <path d="M225,470 Q190,440 150,450 Q190,460 220,478" />
+    <path d="M225,470 Q260,435 305,440 Q265,455 228,478" />
+    <path d="M225,470 Q200,420 165,400 Q210,415 230,465" />
+    <path d="M225,470 Q255,415 295,400 Q255,420 228,468" />
+
+    <rect x="1150" y="450" width="9" height="130"/>
+    <path d="M1154,450 Q1120,420 1085,428 Q1120,440 1156,458" />
+    <path d="M1154,450 Q1188,415 1228,420 Q1192,435 1158,458" />
+    <path d="M1154,450 Q1132,400 1100,382 Q1142,396 1158,446" />
+  </g>
+</svg>

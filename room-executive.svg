@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e2d8"/>
+      <stop offset="100%" stop-color="#d6cfba"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#wallE)"/>
+  <rect x="0" y="230" width="400" height="70" fill="#b9ad8e"/>
+
+  <!-- floor to ceiling window -->
+  <rect x="40" y="20" width="320" height="170" fill="#7fa6c2" stroke="#16263e" stroke-width="6"/>
+  <line x1="200" y1="20" x2="200" y2="190" stroke="#16263e" stroke-width="4"/>
+  <line x1="40" y1="105" x2="360" y2="105" stroke="#16263e" stroke-width="4"/>
+  <path d="M60,150 L120,80 L170,150 Z" fill="#586f86" opacity="0.55"/>
+  <path d="M210,150 L270,70 L340,150 Z" fill="#586f86" opacity="0.4"/>
+
+  <!-- curtains both sides -->
+  <path d="M44,18 Q30,100 44,200 L72,200 Q60,100 68,18 Z" fill="#c9a056" opacity="0.85"/>
+  <path d="M356,18 Q370,100 356,200 L328,200 Q340,100 332,18 Z" fill="#c9a056" opacity="0.85"/>
+
+  <!-- bed, larger -->
+  <rect x="60" y="195" width="220" height="22" fill="#16263e"/>
+  <rect x="60" y="172" width="220" height="26" fill="#f7f4ec"/>
+  <rect x="60" y="217" width="220" height="55" fill="#0e1c30"/>
+  <rect x="70" y="136" width="70" height="42" rx="6" fill="#fff"/>
+  <rect x="148" y="136" width="70" height="42" rx="6" fill="#fff"/>
+  <rect x="60" y="172" width="220" height="10" fill="#c9a056"/>
+  <rect x="50" y="124" width="20" height="148" fill="#16263e"/>
+
+  <!-- lounge chair -->
+  <rect x="296" y="225" width="60" height="30" rx="8" fill="#3c6e6b"/>
+  <rect x="296" y="208" width="60" height="20" rx="8" fill="#3c6e6b"/>
+
+  <!-- rug -->
+  <ellipse cx="200" cy="278" rx="160" ry="16" fill="#16263e" opacity="0.22"/>
+</svg>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rooms &amp; Rates | Meridian Hotel &amp; Spa</title>
+  <meta name="description" content="Compare Deluxe, Premier, Executive and Royal Suite rooms at Meridian Hotel & Spa, and calculate your estimated stay cost.">
+  <meta name="keywords" content="hotel rooms, room rates, hotel suites, room cost calculator, Udaipur hotel rooms">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Meridian <span>Hotel &amp; Spa</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-banner">
+  <div class="container">
+    <span class="eyebrow">Rooms &amp; Suites</span>
+    <h1>Find Your Room</h1>
+    <p>Four room categories, each with lake-facing options. Rates are per room, per night.</p>
+  </div>
+</section>
+
+<section class="container section">
+  <h2>Available Rooms</h2>
+  <div class="gold-divider"></div>
+  <div class="cards">
+
+    <article class="room-card">
+      <img src="images/room-deluxe.svg" alt="Deluxe Room with garden view at Meridian Hotel">
+      <div class="room-body">
+        <h3>Deluxe Room</h3>
+        <p class="nights">Garden view · Sleeps 2 · 220 sq.ft.</p>
+        <p class="price">₹4,999 <span>/ night</span></p>
+        <a class="btn small" href="booking.html">Book This Room</a>
+      </div>
+    </article>
+
+    <article class="room-card">
+      <img src="images/room-premier.svg" alt="Premier Room with balcony at Meridian Hotel">
+      <div class="room-body">
+        <h3>Premier Room</h3>
+        <p class="nights">Partial lake view · Sleeps 2 · 280 sq.ft.</p>
+        <p class="price">₹6,499 <span>/ night</span></p>
+        <a class="btn small" href="booking.html">Book This Room</a>
+      </div>
+    </article>
+
+    <article class="room-card">
+      <img src="images/room-executive.svg" alt="Executive Suite with floor to ceiling window at Meridian Hotel">
+      <div class="room-body">
+        <h3>Executive Suite</h3>
+        <p class="nights">Full lake view · Sleeps 3 · 400 sq.ft.</p>
+        <p class="price">₹8,999 <span>/ night</span></p>
+        <a class="btn small" href="booking.html">Book This Room</a>
+      </div>
+    </article>
+
+    <article class="room-card">
+      <span class="ribbon">Most Popular</span>
+      <img src="images/room-royal.svg" alt="Royal Suite with four poster bed at Meridian Hotel">
+      <div class="room-body">
+        <h3>Royal Suite</h3>
+        <p class="nights">Private sit-out · Sleeps 4 · 650 sq.ft.</p>
+        <p class="price">₹12,999 <span>/ night</span></p>
+        <a class="btn small" href="booking.html">Book This Room</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="container section calculator-box" style="max-width:680px">
+  <h2>Stay Cost Calculator</h2>
+  <div class="gold-divider"></div>
+  <label for="roomSelect">Select Room Type</label>
+  <select id="roomSelect">
+    <option value="4999">Deluxe Room - ₹4,999/night</option>
+    <option value="6499">Premier Room - ₹6,499/night</option>
+    <option value="8999">Executive Suite - ₹8,999/night</option>
+    <option value="12999">Royal Suite - ₹12,999/night</option>
+  </select>
+  <div class="form-row">
+    <div>
+      <label for="nightsCount">Number of Nights</label>
+      <input type="number" id="nightsCount" min="1" value="1">
+    </div>
+    <div>
+      <label for="roomsCount">Number of Rooms</label>
+      <input type="number" id="roomsCount" min="1" value="1">
+    </div>
+  </div>
+  <button class="btn" onclick="calculateStay()">Calculate Cost</button>
+  <p id="costResult" class="result"></p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Meridian Hotel &amp; Spa</h3>
+      <p>A boutique lakeside hotel offering elegant rooms, dining and wellness experiences in Udaipur, India.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="rooms.html">Rooms</a> | <a href="gallery.html">Gallery</a> | <a href="booking.html">Book Now</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: info@meridianhotel.com<br>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Meridian Hotel &amp; Spa. Designed for MANTRA 2026 Summer School.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

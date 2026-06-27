@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16263e"/>
+      <stop offset="100%" stop-color="#0e1c30"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#wallR)"/>
+  <rect x="0" y="232" width="400" height="68" fill="#0a1626"/>
+
+  <!-- arched window -->
+  <path d="M120,190 L120,90 Q120,30 200,30 Q280,30 280,90 L280,190 Z" fill="#c9a056" opacity="0.18" stroke="#c9a056" stroke-width="4"/>
+  <line x1="200" y1="30" x2="200" y2="190" stroke="#c9a056" stroke-width="3"/>
+  <path d="M150,190 L150,95 Q150,55 200,55" fill="none" stroke="#c9a056" stroke-width="2" opacity="0.6"/>
+
+  <!-- chandelier -->
+  <circle cx="200" cy="48" r="6" fill="#e3c98f"/>
+  <line x1="200" y1="20" x2="200" y2="42" stroke="#c9a056" stroke-width="2"/>
+  <circle cx="186" cy="58" r="4" fill="#e3c98f" opacity="0.8"/>
+  <circle cx="214" cy="58" r="4" fill="#e3c98f" opacity="0.8"/>
+
+  <!-- bed, opulent -->
+  <rect x="70" y="195" width="260" height="22" fill="#0a1626"/>
+  <rect x="70" y="170" width="260" height="28" fill="#f3ead8"/>
+  <rect x="70" y="217" width="260" height="55" fill="#c9a056"/>
+  <rect x="84" y="132" width="80" height="44" rx="6" fill="#f3ead8"/>
+  <rect x="170" y="132" width="80" height="44" rx="6" fill="#f3ead8"/>
+  <rect x="256" y="132" width="80" height="44" rx="6" fill="#f3ead8"/>
+  <rect x="70" y="170" width="260" height="10" fill="#e3c98f"/>
+  <rect x="58" y="118" width="22" height="160" fill="#c9a056"/>
+  <rect x="320" y="118" width="22" height="160" fill="#c9a056"/>
+
+  <!-- canopy drape -->
+  <path d="M58,118 Q200,90 342,118" fill="none" stroke="#c9a056" stroke-width="4"/>
+  <path d="M70,118 Q120,150 70,200" fill="none" stroke="#c9a056" stroke-width="2" opacity="0.6"/>
+  <path d="M330,118 Q280,150 330,200" fill="none" stroke="#c9a056" stroke-width="2" opacity="0.6"/>
+
+  <!-- gold accent rug -->
+  <ellipse cx="200" cy="282" rx="170" ry="14" fill="#c9a056" opacity="0.3"/>
+</svg>
